@@ -15,7 +15,7 @@
 
 ## Guide d'Utilisation
 
-1. **Lancez le jeu** : `python terminal_jeu.py`
+1. **Lancez le jeu** : `jeu2.py`
 2. **Choisissez un personnage** : Chaque personnage possède un avantage contre certains monstres et un désavantage contre d'autres.
 3. **Options dans les pièces** :
    - **Explorer la pièce voisine** : Découvrez des objets, rencontrez des monstres, ou trouvez des indices.
