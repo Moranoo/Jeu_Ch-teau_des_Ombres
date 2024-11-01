@@ -131,6 +131,7 @@ def choix(joueur_hp, niveau, personnage, nom_personnage, peut_reposer):
         print("Choix invalide. Veuillez réessayer.")
         return choix(joueur_hp, niveau, personnage, nom_personnage, peut_reposer)
 
+    print("\nVous êtes maintenant dans une nouvelle pièce.\n")
     return joueur_hp, peut_reposer
 
 def explorer(joueur_hp, niveau, personnage, nom_personnage):
