@@ -58,8 +58,13 @@ def enigme(joueur_hp):
         {"question": "Quel est le pluriel de 'cheval' ?", "reponse": "chevaux", "recompense": "contre_fantome"},
         {"question": "Combien font 7 + 5 ?", "reponse": "12", "recompense": "contre_loup_garou"},
         {"question": "Quel est le masculin de 'chienne' ?", "reponse": "chien", "recompense": "contre_squelette"},
-        {"question": "Combien font 6 x 3 ?", "reponse": "18", "recompense": "contre_fantome"}
-    ]
+        {"question": "Combien font 6 x 3 ?", "reponse": "18", "recompense": "contre_fantome"},
+        {"question": "Quel est le pluriel de 'animal' ?", "reponse": "animaux", "recompense": "contre_loup_garou"},
+        {"question": "Quel est le masculin de 'vache' ?", "reponse": "veau", "recompense": "contre_squelette"},
+        {"question": "Combien font 9 - 4 ?", "reponse": "5", "recompense": "contre_fantome"},
+        {"question": "Quel est le pluriel de 'chien' ?", "reponse": "chiens", "recompense": "contre_loup_garou"},
+        {"question": "Quel est le féminin de 'taureau' ?", "reponse": "vache", "recompense": "contre_squelette"}
+        ]
 
     enigme = random.choice(enigmes)
     print("\nVous trouvez une énigme sur le mur :")
